@@ -3,7 +3,7 @@
 cat <<EOL >> ~/.ssh/config
 
 Host myserver
-    HostName your.server.com
+    HostName $SERVERNAME
     User ubuntu
     IdentityFile ~/.ssh/school
     PasswordAuthentication no
