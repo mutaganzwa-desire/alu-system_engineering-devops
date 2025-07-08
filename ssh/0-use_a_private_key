@@ -1,4 +1,3 @@
 #!/usr/bin/env bash
-#Declare a variable for the server name
-SERVER_NAME="6722-web-01"
-ssh -i ~/.ssh/school ubuntu@$SERVER_NAME
+#Connect to server via ssh
+ssh -i ~/.ssh/school ubuntu@172.17.0.17

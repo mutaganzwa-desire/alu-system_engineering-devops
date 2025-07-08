@@ -1,15 +1,7 @@
 #!/usr/bin/env bash
-# Append or overwrite host config in ~/.ssh/config
-cat <<EOL >> ~/.ssh/config
-
+# Config file
 Host myserver
-    HostName $SERVERNAME
-    User ubuntu
-    IdentityFile ~/.ssh/school
-    PasswordAuthentication no
-EOL
-
-# Set proper permissions
-chmod +x ~/.ssh/config
-
-echo "SSH configuration added for 'myserver'. You can now connect using: ssh myserver"
+  HostName 172.17.0.17
+  User ubuntu
+  IdentityFile ~/.ssh/school
+  PasswordAuthentication no
