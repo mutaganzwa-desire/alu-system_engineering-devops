@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # Config file
 Host myserver
-  HostName 172.17.0.17
+  HostName 52.90.195.193
   User ubuntu
   IdentityFile ~/.ssh/school
   PasswordAuthentication no
